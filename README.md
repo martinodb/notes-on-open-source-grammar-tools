@@ -17,7 +17,7 @@ Notes on open source grammar tools
 ## Delph-in tools
 * [LkbFos (FOSS edition of LKB)](http://moin.delph-in.net/wiki/LkbFos)
 * [ACE ("Answer Constraint Engine", parsing and generation with DELPH-IN grammars. Do not confuse with Attempto ACE)](http://moin.delph-in.net/wiki/AceTop)
-* [pyDelphin](https://github.com/delph-in/pydelphin)
+* [pyDelphin (requires ACE installed)](https://github.com/delph-in/pydelphin)
 
 ## Menard
 * [Menard github repo](https://github.com/ekoontz/menard)
