@@ -34,11 +34,17 @@ Notes on open source grammar tools.
    * "A Clojure library for generation and parsing expressions from grammars and lexicons."
    * For now, it seems a toy to translate from a small subset of Dutch to English
    * But it's actively maintained and it's pure Clojure, no need to use external tools. That's interesting.
-   * Not very documented, but good response to issues by the author.
+   * Not very documented, but quick and good [response to issues](https://github.com/ekoontz/menard/issues/2) by the author.
 
 
 
 # OpenCCG (CCG: Combinatory Categorial Grammar)
+
+> OpenCCG is a system for parsing and generating text using [combinatory categorial grammar](https://en.wikipedia.org/wiki/Combinatory_categorial_grammar) for syntax and [hybrid logic dependency semantics](https://www.aclweb.org/anthology/P02-1041/) for, well, the semantic representation.
+> If that seems like a mouthful, don't worry too much about the details right now. You can get started installing OpenCCG and working with OpenCCG using the tccg utility right now.
+> If, on the other hand, you want to start understanding what that mouthful means, Johanna Moore at the University of Edinburgh has some helpful course notes on NLG in general and OpenCCG in particular.
+
+
 * [Github repo](https://github.com/OpenCCG/openccg)
 * [SourceForge repo (best option to get started quickly, since it includes compiled dependencies)](https://sourceforge.net/projects/openccg/files/openccg/)
 * Documentation
