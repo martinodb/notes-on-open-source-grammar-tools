@@ -1,5 +1,4 @@
-Notes on open source grammar tools
-
+Notes on open source grammar tools.
 ======
 
 # Construction Grammars
