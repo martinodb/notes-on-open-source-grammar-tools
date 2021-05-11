@@ -47,4 +47,34 @@ Notes on open source grammar tools.
 * Possible drawbacks
   * I can't find an editable broad coverage English grammar (like you can get in [the DELPH-IN grammar matrix](https://matrix.ling.washington.edu/customize/matrix.cgi)). Instead, there are trained models from CCGbank. Problems with this:
    * It assumes Standford CoreNLP tools, which are GPL licensed (not LGPL), which can lead to license incompatibilities.
-   * Training your own models (as opposed to using the provided trained models) requires a CCGbank license. 
+   * Training your own models (as opposed to using the provided trained models) requires a CCGbank license.
+
+## Example interaction with tccg (the main OpenCCG tool)
+
+```
+$ tccg
+Loading grammar from URL: file:/home/[..]/openCCG/SourceForge/openccg/grammars/tiny/grammar.xml
+Grammar 'tiny' loaded.
+
+Enter strings to parse.
+Type ':r' to realize selected reading of previous parse.
+Type ':h' for help on display options and ':q' to quit.
+You can use the tab key for command completion, 
+Ctrl-P (prev) and Ctrl-N (next) to access the command history, 
+and emacs-style control keys to edit the line.
+
+tccg> she buys it
+3 parses found.
+
+Parse 1: s : 
+  @w1:action(buy ^ 
+             <tense>pres ^ 
+             <Actor>(w0:animate-being ^ pro3f ^ 
+                     <num>sg) ^ 
+             <Patient>(w2:thing ^ pro3n ^ 
+                       <num>sg))
+tccg> :r
+[1,000] she buys it :- s : (@w0:animate-being(pro3f) ^ @w0:animate-being(<num>sg) ^ @w1:action(buy) ^ @w1:action(<tense>pres) ^ @w1:action(<Actor>w0:animate-being) ^ @w1:action(<Patient>w2:thing) ^ @w2:thing(pro3n) ^ @w2:thing(<num>sg))
+tccg> :q
+Exiting tccg.
+```
