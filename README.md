@@ -20,7 +20,12 @@ Notes on open source grammar tools.
 * [Main DELPH-IN website](http://moin.delph-in.net/wiki/FrontPage)
 * [LkbFos (FOSS edition of LKB)](http://moin.delph-in.net/wiki/LkbFos)
 * [ACE ("Answer Constraint Engine", parsing and generation with DELPH-IN grammars. Do not confuse with Attempto ACE)](http://moin.delph-in.net/wiki/AceTop)
+* [DELPH-IN Grammar Matrix](https://matrix.ling.washington.edu/customize/matrix.cgi)
+  * See also the [Getting Started](http://moin.delph-in.net/wiki/MatrixGettingStarted)
 * [pyDelphin (requires ACE installed)](https://github.com/delph-in/pydelphin)
+ > precise, high-quality language processing tools and resources, primarily in the HPSG syntactic and MRS semantic frameworks, and PyDelphin is a suite of Python libraries for processing data and interacting with tools in the DELPH-IN ecosystem. PyDelphin's goal is to lower the barriers to making use of DELPH-IN resources to help users quickly build applications or perform experiments, and it has been successfully used for research into machine translation (e.g., Goodman, 2018), sentence chunking (Muszyńska, 2016), neural semantic parsing (Buys & Blunsom, 2017), natural language generation (Hajdik et al., 2019), and more.
+ > Documentation, including guides and an API reference, is available here: http://pydelphin.readthedocs.io/
+ > New to PyDelphin? Want to see examples? Try the walkthrough.
 
 ## Menard
 * [Menard github repo](https://github.com/ekoontz/menard)
@@ -33,7 +38,11 @@ Notes on open source grammar tools.
 
 # OpenCCG (CCG: Combinatory Categorial Grammar)
 * [Github repo](https://github.com/OpenCCG/openccg)
-* [SourceForge repo (it's needed)](https://sourceforge.net/projects/openccg/files/openccg/)
+* [SourceForge repo (best option to get started quickly, since it includes compiled dependencies)](https://sourceforge.net/projects/openccg/files/openccg/)
 * Documentation
   * [Installation](https://davehowcroft.com/post/installing-openccg/)
-  * [Gettting started](https://davehowcroft.com/post/getting-started-with-openccg/) 
+  * [Gettting started](https://davehowcroft.com/post/getting-started-with-openccg/)
+* Possible drawbacks
+  * I can't find an editable broad coverage English grammar (like you can get in [the DELPH-IN grammar matrix](https://matrix.ling.washington.edu/customize/matrix.cgi)). Instead, there are trained models from CCGbank. Problems with this:
+   * It assumes Standford CoreNLP tools, which are GPL licensed (not LGPL), which can lead to license incompatibilities.
+   * Training your own models (as opposed to using the provided trained models) requires a CCGbank license. 
