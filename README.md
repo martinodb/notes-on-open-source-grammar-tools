@@ -4,8 +4,10 @@ Notes on open source grammar tools.
 # Construction Grammars
 
 ## FCG (Fluid Construction Grammar)
-* [My fork of Babel2](https://github.com/martinodb/Babel2)
-* [My mirror plus documentation of Babel-core](https://github.com/martinodb/babel-core)
+* [FCG website](https://www.fcg-net.org/)
+  * Problem: There's a Github repo which is well documented but outdated, and a Gitlab repo (which is the one recommended in the FCG website) which is more up-to-date but very poorly documented. So I forked both.
+* [My fork of the Babel2 Github repo](https://github.com/martinodb/Babel2)
+* [My mirror plus documentation of the Babel-core Gitlab repo](https://github.com/martinodb/babel-core)
 
 ## SBSG (Sign-based Construction Grammar)
 * [RuiPChaves-SBCG (needs SICStus Prolog)](https://github.com/RuiPChaves/SBCG)
