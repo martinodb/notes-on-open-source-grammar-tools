@@ -8,7 +8,7 @@ Notes on open source grammar tools
 * [My fork of Babel2](https://github.com/martinodb/Babel2)
 * [My mirror plus documentation of Babel-core](https://github.com/martinodb/babel-core)
 
-# SBSG (Sign-based Construction Grammar)
+## SBSG (Sign-based Construction Grammar)
 * [RuiPChaves-SBCG (needs Sicstus Prolog)](https://github.com/RuiPChaves/SBCG)
 * [I forked RuiPChaves-SBCG, trying to make it run on SWI-Prolog, but it doesn't work as of yet](https://github.com/martinodb/SBCG)
 
