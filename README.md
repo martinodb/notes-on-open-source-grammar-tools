@@ -2,9 +2,16 @@ Notes on open source grammar tools
 
 ======
 
-# FCG (Fluid Construction Grammar)
-*[My fork of Babel2](https://github.com/martinodb/Babel2)
-*[My mirror plus documentation of Babel-core](https://github.com/martinodb/babel-core)
+# Construction Grammars
+
+## FCG (Fluid Construction Grammar)
+* [My fork of Babel2](https://github.com/martinodb/Babel2)
+* [My mirror plus documentation of Babel-core](https://github.com/martinodb/babel-core)
+
+# SBSG (Sign-based Construction Grammar)
+* [RuiPChaves-SBCG (needs Sicstus Prolog)](https://github.com/RuiPChaves/SBCG)
+* [I forked RuiPChaves-SBCG, trying to make it run on SWI-Prolog, but it doesn't work as of yet](https://github.com/martinodb/SBCG)
+
 
 # HPSG (Head-driven Phrase Structure Grammar)
 ## Delph-in tools
@@ -15,9 +22,7 @@ Notes on open source grammar tools
 ## Menard
 * [Menard github repo](https://github.com/ekoontz/menard)
 
-# SBSG (Sign-based Construction Grammar)
-* [RuiPChaves-SBCG (needs Sicstus Prolog)](https://github.com/RuiPChaves/SBCG)
-* [I forked RuiPChaves-SBCG, trying to make it run on SWI-Prolog, but it doesn't work as of yet](https://github.com/martinodb/SBCG)
+
 
 # OpenCCG (CCG: Combinatory Categorial Grammar)
 * [Github repo](https://github.com/OpenCCG/openccg)
