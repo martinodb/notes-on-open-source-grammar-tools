@@ -21,6 +21,10 @@ Notes on open source grammar tools.
 
 * [Main DELPH-IN website](http://moin.delph-in.net/wiki/FrontPage)
 * [LkbFos (FOSS edition of LKB)](http://moin.delph-in.net/wiki/LkbFos)
+  * The automatic installation of **LkbFos** includes the often mentioned grammar testing app called **[incr tsdb()]** ("tee es dee bee plus plus").
+   * In theory it can be called in **emacs** by typing ```M-x itsdb RET``` but I haven't got that to work.
+   * What I did is open the **[incr tsdb()] Podium** in a new window from **LkbFos**.
+   * For that, do ```options->expand menu``` , then ```advanced->evaluate lisp expression``` , then pick from the list ```(tsdb:tsdb :podium)```
 * [ACE ("Answer Constraint Engine", parsing and generation with DELPH-IN grammars. Do not confuse with Attempto ACE)](http://moin.delph-in.net/wiki/AceTop)
 * [DELPH-IN Grammar Matrix](https://matrix.ling.washington.edu/customize/matrix.cgi)
   * See also the [Getting Started](http://moin.delph-in.net/wiki/MatrixGettingStarted)
